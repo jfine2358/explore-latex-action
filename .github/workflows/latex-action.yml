@@ -14,7 +14,7 @@ jobs:
           root_file: hello.tex
           
       - name: Upload PDF file
-      - uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
           name: PDF
-          path: main.pdf
+          path: hello.pdf
